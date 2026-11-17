@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alma — IPTV plejer za televizor i telefon</title>
+<meta name="description" content="Alma: IPTV plejer za Google TV / Android TV i telefon — M3U, Xtream i MAC liste, TV vodič (EPG), kanali sa zemaljske antene, filmovi i serije iz liste, titlovi, zaštita od štekanja. Besplatno.">
+<link rel="icon" href="ikona.png">
+<meta property="og:image" content="https://omerhusovic-arch.github.io/alma/reklama-1.png">
+<meta property="og:url" content="https://omerhusovic-arch.github.io/alma/">
+<style>
+  :root { --poz:#09101E; --panel:#121F36; --panel2:#1B2D4C; --tekst:#E8EEF7; --sporedni:#93A3BA; --akcent:#4DA3FF; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: "Segoe UI", Roboto, Arial, sans-serif; background: var(--poz); color: var(--tekst); line-height: 1.6; }
+  .omot { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+  header { background: radial-gradient(circle at 25% 15%, #16345F 0%, var(--poz) 70%); padding: 48px 0 40px; }
+  .vrh { display: flex; gap: 26px; align-items: center; flex-wrap: wrap; }
+  .ikona { width: 120px; height: 120px; border-radius: 28px; }
+  h1 { font-size: 44px; margin: 0; color: var(--akcent); }
+  .podnaslov { font-size: 19px; margin: 4px 0 0; }
+  .autor { color: var(--sporedni); font-size: 14px; margin-top: 4px; }
+  .dugme { display: inline-block; background: var(--akcent); color: var(--poz); font-weight: 700; font-size: 20px;
+           padding: 16px 28px; border-radius: 14px; text-decoration: none; margin-top: 26px; }
+  .dugme:hover { filter: brightness(1.08); }
+  .mala { color: var(--sporedni); font-size: 14px; margin-top: 10px; }
+  section { padding: 34px 0; border-top: 1px solid var(--panel2); }
+  h2 { color: var(--akcent); font-size: 26px; margin: 0 0 16px; }
+  .mreza { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; }
+  .kartica { background: var(--panel); border-radius: 16px; padding: 18px 20px; }
+  .kartica b { display: block; font-size: 17px; margin-bottom: 4px; }
+  .kartica span { color: var(--sporedni); font-size: 15px; }
+  ol { padding-left: 22px; margin: 8px 0 0; } li { margin: 6px 0; }
+  .slika { max-width: 100%; border-radius: 14px; margin-top: 18px; }
+  .napomena { background: var(--panel); border-left: 4px solid var(--akcent); padding: 12px 16px; margin-top: 14px; color: var(--sporedni); font-size: 15px; }
+  code { background: var(--panel2); padding: 2px 6px; border-radius: 6px; color: var(--tekst); }
+  footer { color: var(--sporedni); font-size: 14px; padding: 30px 0 40px; border-top: 1px solid var(--panel2); }
+  a { color: var(--akcent); }
+</style>
+</head>
+<body>
+<header>
+  <div class="omot">
+    <div class="vrh">
+      <img class="ikona" src="ikona.png" alt="Alma">
+      <div>
+        <h1>Alma</h1>
+        <p class="podnaslov">IPTV plejer za televizor i telefon — vaša lista, TV vodič i kanali s antene na jednom mjestu.</p>
+        <p class="autor">Omer Husović, prof.</p>
+      </div>
+    </div>
+    <a class="dugme" href="https://github.com/omerhusovic-arch/alma/releases/latest/download/Alma.apk">⬇ Preuzmi (Android)</a>
+    <p class="mala">Besplatno · bez reklama · Google TV / Android TV i telefon · <span id="verzija">zadnja verzija</span></p>
+  </div>
+</header>
+<main class="omot">
+  <section>
+    <h2>Šta nudi</h2>
+    <div class="mreza">
+      <div class="kartica"><b>📋 Vaše liste</b><span>M3U (link ili fajl), Xtream Codes i MAC portal. Listu možete dodati i s telefona — skenirate QR kod na televizoru.</span></div>
+      <div class="kartica"><b>📅 TV vodič (EPG)</b><span>Šta ide sada, a ispod slike cijeli program kanala s opisom svake emisije. Vodič se sam dopunjava za kanale bez programa.</span></div>
+      <div class="kartica"><b>📡 Kanali s antene</b><span>Na televizorima s prijemnikom kanali sa zemaljske antene su u Almi, s programom koji šalje antena.</span></div>
+      <div class="kartica"><b>🎬 Filmovi i serije</b><span>Filmovi i serije iz vaše liste složeni po kategorijama, nastavak gledanja, titlovi s interneta.</span></div>
+      <div class="kartica"><b>🔁 Protiv štekanja</b><span>Prilagodljiva rezerva, ponovno spajanje, drugi format, rezervni izvor iz druge liste i test brzine.</span></div>
+      <div class="kartica"><b>🎮 Daljinski</b><span>Gore/dolje kanal, brojevi, favoriti, a tipke daljinskog možete sami podesiti. Prečice za druge aplikacije (YouTube, Netflix…).</span></div>
+    </div>
+    <img class="slika" src="reklama-1.png" alt="Alma">
+    <div class="napomena">Alma <b>ne sadrži kanale</b> — to je plejer. Koristite liste na koje imate pravo (vaš IPTV pružatelj, javne besplatne liste).</div>
+  </section>
+  <section>
+    <h2>Instalacija na televizor (Google TV / Android TV)</h2>
+    <ol>
+      <li>Na televizoru iz Google Play-a instalirajte besplatnu aplikaciju <b>Downloader</b>.</li>
+      <li>U Downloaderu upišite adresu <code>omerhusovic-arch.github.io/alma</code> i pritisnite <b>„⬇ Preuzmi“</b>.</li>
+      <li>Kad televizor pita, dozvolite Downloaderu instalaciju nepoznatih aplikacija (samo prvi put), pa <b>Instaliraj</b>.</li>
+      <li>Alma se pojavi među aplikacijama. Listu dodajte u <b>Liste → Dodaj</b> ili s telefona preko QR koda.</li>
+    </ol>
+  </section>
+  <section>
+    <h2>Instalacija na telefon ili tablet</h2>
+    <ol>
+      <li>Otvorite ovu stranicu na uređaju i pritisnite <b>„⬇ Preuzmi“</b>.</li>
+      <li>Otvorite preuzeti <b>Alma.apk</b> i dozvolite instalaciju iz preglednika (samo prvi put).</li>
+      <li>Nova verzija se instalira preko stare — liste i postavke ostaju.</li>
+    </ol>
+  </section>
+</main>
+<footer class="omot">Alma · Omer Husović, prof. · besplatna aplikacija. Alma ne prikuplja lične podatke — liste i postavke ostaju na vašem uređaju.</footer>
+<script>
+  fetch("verzija.json", { cache: "no-store" }).then(r => r.json()).then(v => {
+    document.getElementById("verzija").textContent = "verzija " + v.versionName;
+  }).catch(() => {});
+</script>
+</body>
+</html>
